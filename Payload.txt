@@ -1,0 +1,125 @@
+{
+	"policyTermKey"		:	null,
+	
+	"quoteNumber"		:	null,
+	"applicationNumber"	:	null,
+	"binderNumber"		:	null,
+	"policyNumber"		:	"{{policyNumber}}",
+	"effectiveDate"		:	"{{effectiveDate}}",
+	"expirationDate"	:	"{{expirationDate}}",
+	"policySubType"		:	"{{policySubType}}",
+	"naicNumber"		:	{{naicNumber}},
+	"followBilling"		:	"{{followBilling}}",
+	"billingMethod"		:	"{{billingMethod}}",
+	"agencyKey"			:	"{{agencyKey}}",
+   
+	"mailingAddress"	:{
+						"addressLine1":"7208 Paseo Del Rio",
+						"city":"Commerce",
+    					"state":"CA",
+    					"postalCode":"90040"
+						},
+   
+   "numberOfUnitsCovered"	:	{{numberOfUnitsCovered}},
+   
+   
+   "floodSopeDetails"		:{
+				    		"hasFloodSope"		:	null,
+    						"floodSopeStatement":	null
+							},
+   
+   "insuredSignaturePresent"	:	null,
+   
+   "premiumAmount"			:	{{policyPremiumAmount}},
+   "policyPaidIndicator"	:	{{policyPaidIndicator}},
+   "premiumDueDate"			:	"2019-01-01",
+   "premiumDueAmount"		:	2001,
+   "MembershipFeeDueAmt"	:	2001,
+   "LateFeeDueAmt"			:	2001,
+   
+   "insureds":[
+			   {
+				"title"			: "Mr",
+        		"suffix"		: "",
+        		"firstName"		:"Mohammad",
+        		"lastName"		:"Saif",
+        		"middleName"	:""
+      }
+   ],
+   
+   "cancellationDetails"	:	null,
+   
+   "reinstatementDetails"	:	null,
+   
+   "informationSourceDetails"	:{
+								"sourceKey"		:	"{{sourceKey}}",
+    							"issueDate"		:	"{{issueDate}}",
+    							"receivedDate"	:	"2019-01-01",
+    							"sourceType"	:	"{{sourceType}}",
+    							"callerType"	:	"{{CallerType1}}",
+    							"endorsementEffectiveDate"	:	"2019-01-01",
+    
+    "document":{
+        		"documentId"		:	"{{documentId}}",
+        		"documentType"		:	"{{documentType}}",
+        		"documentSubType"	:	"{{documentSubType}}"
+      },
+      
+      "clientPortfolioId"	:	{{clientPortfolioId}},
+      "sessionKey"			:	"{{sessionKey}}",
+      "ScanDate"			:	"2019-01-01"
+   },
+   
+   "ProcessName":"ImportPinRequest",
+   "userId":"{{userId}}",
+   "policyState": "{{policyState}}",
+   "isLpi":false,
+   "lpiPolicyClientPortfolioIds":[
+
+   ],
+   
+   "forceAdd"		:	false,
+   "isDataFix"		:	false,
+   "servicerName"	:	"string",
+   "coveredEntities":[
+				   {
+        			"customerPropertyId"	:	{{customerPropertyId}},
+        			"buildingId"			:	{{buildingId}},
+        			"address":{
+            		"addressLine1"			:	"123 Main St",
+            		"city"					:	"Los Angeles",
+            		"state"					:	"CA",
+            		"postalCode"			:	"90032"
+         },
+         
+    "premiumAmount"		:	{{propertyPremiumAmount}},
+    "floodZone"			:	"A",
+    "floodProgramType"	:	"R",
+         
+         "perils":[
+            {
+               "peril"					:	"Fire",
+               "deductibleAmount"		:	1000,
+               "replacementCostValue"	:	100,
+               "coverages":[
+                  {
+                     "coverageAmount"	:	{{coverageAmount}},
+                     "coverageType"		:	"{{coverageType}}",
+                     "dwellingRcc"		:	true
+                  }
+               ]
+            }
+         ],
+         
+         "mortgageeClause":{
+            "eClauseName":"Eclause 1",
+            "address":{
+               "addressLine1":"123 Main St",
+               "city":"Los Angeles",
+               "state":"CA",
+               "postalCode":"90032"
+            }
+         }
+      }
+   ]
+}
